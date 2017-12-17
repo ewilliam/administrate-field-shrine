@@ -8,7 +8,7 @@ module Administrate
       end
 
       def url
-        data.try(:url).to_s
+        resource.try(:url).to_s
       end
 
       def url_only?
